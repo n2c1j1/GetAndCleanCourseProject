@@ -1,4 +1,4 @@
-# Within githiub this document will be easiest to read in RAW mode.
+# Within github this document will be easiest to read in RAW mode.
 #
 # The purpose of this document is to describe the script used to process a raw set of fitness data
 # and create from it a tidy data set.
