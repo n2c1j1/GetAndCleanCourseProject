@@ -15,8 +15,8 @@ Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 20
 Tidy Data Set Course Project
 ============================
 
-In order to obtain the data set for tor the GetandCleanData Course project, I combined the test and training data from the original experiment and sorted it by subject and activity. I extracted only the mean and standard deveiation of the 
-following measurements and averade them by subject and activity.
+In order to obtain the data set for tor the GetandCleanData Course project, I combined the test and training data from the original experiment and sorted it by subject and activity. I extracted only the mean and standard deviation of the 
+following measurements and averaged them by subject and activity.
 
 
 tBodyAcc-X 	tGravityAcc-X	tBodyAccJerk-X	tBodyGyro-X	tBodyGyroJerk-X
@@ -36,16 +36,24 @@ fBodyGyroMag
 fBodyGyroJerkMag
 
 In accordance with course recommendations, I reduced all column names to lower case and removed the "-", so
-tBodyAcc-X became tbodyaccx.
+tBodyAccMean-X became tbodyaccmeanx and tBodyAccStd-X became tbodyaccstdx.
+
 
 Actual Tidy Set Column Names
 ============================
 
 subject			An integer between 1 and 30, representing the human whose measurements were taken.
 activity		walking, walkingupstairs,walkingdownstairs,sitting, standing or laying
-tbodyaccx		Set of body measurements as described above. Each value is the average of that measurement
-...			for the subject and activity in question.
-fBodygyrojerkmag	
+tbodyaccmeanx		Set of body measurements as described above. Each value is the average of that measurement
+tbodyaccmeany		for the subject and activity in question.
+tbodyaccmeanz
+tbodyaccstdx
+tbodyaccstdy
+tbodyaccstdz
+.
+.
+.
+fBodygyrojerkmagstd	
 
 
 
