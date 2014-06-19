@@ -1,3 +1,28 @@
+##############################################################################
+# This script named runAnalysis.R, is available in the githib repository at:
+# https://github.com/n2c1j1/GetAndCleanCourseProject.
+#
+# The purpose of the script is to transform a raw data set into a tidy data set 
+# comprising the averages of a set of measurements per participating humand and activity.
+#
+# A full description is available in the accompanying README file.
+#
+# The source of the data used for this project is:
+# https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+#
+# A description of the experimental design and the original dataset is available here:
+# http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+#
+# I would like to thank the authors of this work for sharing their work and results.
+#
+# Citation:
+# Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity
+# Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International
+# Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
+#
+#########################################################################################################
+
+
 runAnalysis<- function() {
   fitzip = "fitness.zip"
   #if data file has not yet been downloaded, fetch it
